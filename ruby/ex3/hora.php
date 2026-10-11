@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set("Europa/Madrid");
+date_default_timezone_set("Europe/Madrid");
 
 $hora = date("H");
 $hora_completa = date("H:i:s");

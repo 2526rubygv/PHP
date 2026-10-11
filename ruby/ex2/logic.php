@@ -7,11 +7,11 @@ if (isset($_GET["quantitat"]) && isset($_GET["convertir"])) {
 
     if ($convertir == "eurosadolar") {
         $resultat = $quantitat * $taxa;
-        echo $quantitat . "euros son" . $resultat . "dolares.";
+        echo $quantitat . " euros son" . $resultat . "dolares.";
     }
     else {
         $resultat = $quantitat / $taxa;
-        echo $quantitat . "dolares son " . $resultat . "euros.";
+        echo $quantitat . " dolares son " . $resultat . "euros.";
     }
 }
 else {

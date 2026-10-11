@@ -18,7 +18,7 @@ if (isset($_GET["estilo"])) {
         echo "El rock nunca muere!! Prepara tus oídos para escuchar guitarras eléctricas y baterías potentes.";
     }
     elseif ($estilo == "electronica") {
-        echo "La electrónica te hace bailar sin parar: que no se detenga.";
+        echo "La electrónica te hace bailar sin parar, que no se detenga!!.";
     }
 }
 else {
